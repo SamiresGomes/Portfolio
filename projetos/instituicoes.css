@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    }
+
+    
+section{
+    position: relative;
+}
+
+.section{
+    background-color: #202834;
+    padding: 35px 200px;
+    transition: 0.3s ease ;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: calc(5rem +1rem);
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-bar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    transition: 0.3s ease;
+}
+
+.nav-close-btn,
+.nav-menu-btn {
+    display: none;
+}
+
+.nav-bar .logo {
+    color: var(--white-color);
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: var(--text-shadow);
+}
+
+.navigation .nav-items a {
+    color: var(--white-color);
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: var(--text-shadow);
+    font-weight: bold;
+}
+
+.navigation .nav-items a i {
+    display: none;
+}
+
+.navigation .nav-items a:not(:last-child) {
+    margin-right: 45px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-radicals{
+    text-align: center;
+    background-color: rgb(99, 95, 95);
+}
+
+footer{
+    background-color: rgb(173, 173, 173);
+}
